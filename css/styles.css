@@ -46,8 +46,9 @@ p.central {
     text-align: center;
 }
 
-iframe.mapa {
+.mapa {
     float: right;
+    padding: 20px;
 }
 
 /* Color de fondo pie de página */
