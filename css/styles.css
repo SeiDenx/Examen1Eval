@@ -1,0 +1,46 @@
+/* Tamaño celda logo en cabecera */
+td.logo {
+   width: 50px;
+}
+
+/* Celda con el formulario de acceso */
+td.acceso {
+    width: 100%;
+    text-align: right;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+/* Cambio de color tabla menú */
+table.menu {
+    background-color: beige;
+}
+
+/* Espaciado menú */
+table.menu td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Eliminar decoración enlaces de menú */
+table.menu td a {
+    text-decoration: none;
+}
+
+/* Redimensionar imagen destacada y deslizada a la derecha */
+img.destacada {
+    float: right;
+    width: 250px;
+}
+
+/* Centrar imagen central */
+p.central {
+    text-align: center;
+}
+
+/* Color de fondo pie de página */
+footer.pie {
+    background-color: cyan;
+}

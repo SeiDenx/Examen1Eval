@@ -4,15 +4,17 @@ Fecha de desarrollo: 19/11/2019 -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Indice</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- Cabecera -->
     <header>
         <table>
             <tbody>
                 <tr>
-                    <td><img src="img/logo.png" alt="Logo"></td>
-                    <td><h1>Web Developers</h1></td>
+                    <td><a href="index.html"><img src="img/logo.png" alt="Logo"></a></td>
+                    <td class="logo"><h1>Web Developers</h1></td>
                     <td class="acceso">
                         <form action="get">
                             Login: <input type="text" name="login" size="20" required>
@@ -22,24 +24,33 @@ Fecha de desarrollo: 19/11/2019 -->
                 </tr>
             </tbody>
         </table>
+        <!-- Menu -->
         <nav>
-            <ul>
-                <li><a href="desarrollo.html">Desarrollo</a></li>
-                <li>SEO</li>
-                <li>Servicios</li>
-                <li>Empresa</li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+            <table class="menu" border="1">
+                <tbody>
+                    <tr>
+                        <td><a href="desarrollo.html">Desarrollo</a></td>
+                        <td>SEO</td>
+                        <td>Servicios</td>
+                        <td>Empresa</td>
+                        <td><a href="contacto.html">Contacto</a></td>
+                    </tr>
+                </tbody>
+            </table>
         </nav>
+        <!-- Fin menu -->
         <hr>
     </header>
+    <!-- Fin cabecera -->
+    <!-- Contenido principal -->
     <main>
         <section>
             <h2>Desarrollos a medida</h2>
+            <img class="destacada" src="img/box.jpg" alt="Foto caja">
             <p>Más de 20 años de experiencia en desarrollo web de alto nivel, hacemos aplicaciones a medida, 
                 webs y apps para dispositivos móviles, optimización de bases de datos y desarrollos de última 
                 tecnología. Somos expertos en mejorar procesos la eficiencia mediante aplicaciones cliente/servidor, 
-                apps y desarrollo web. <img src="img/box.jpg" alt="Foto caja"></p>
+                apps y desarrollo web.</p>
             <h2>Profesionales a tu servicio</h2>
             <p>En el mercado actual el uso de Internet como herramienta de venta y captación de nuevos clientes 
                 está creciendo de una forma tan rápida, y que en muchos casos se ha convertido en el modelo de 
@@ -54,7 +65,7 @@ Fecha de desarrollo: 19/11/2019 -->
                 <li>Formados en la última tecnología web</li>
                 <li>24h a su servicio</li>
             </ol>
-            <img src="img/student.jpg" alt="Foto estudiante">
+            <p class="central"><img src="img/student.jpg" alt="Foto estudiante"></p>
             <h2>Nuestras características</h2>
                 <ol>
                     <li>Profesionales</li>
@@ -64,5 +75,16 @@ Fecha de desarrollo: 19/11/2019 -->
                 </ol>
         </section>
     </main>
+    <!-- Fin contenido principal -->
+    <!-- Pie de pagina -->
+    <footer class="pie">
+        <address>
+            Autor: Carlos Fernández<br>
+            correo: <a href="mailto:seidenx@gmail.com">seidenx@gmail.com</a>
+        </address>
+        
+        <p>Última modificación: <time datetime="2019-11-19">19/11/2019</time></p>
+    </footer>
+    <!-- Fin pie -->
 </body>
 </html>
