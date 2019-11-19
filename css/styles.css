@@ -46,7 +46,12 @@ p.central {
     text-align: center;
 }
 
+iframe.mapa {
+    float: right;
+}
+
 /* Color de fondo pie de página */
 footer.pie {
     background-color: cyan;
+    clear: both;
 }
