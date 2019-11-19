@@ -29,6 +29,12 @@ table.menu td a {
     text-decoration: none;
 }
 
+h2 {
+    text-transform: uppercase;
+    color: blue;
+    font-size: 18px;
+}
+
 /* Redimensionar imagen destacada y deslizada a la derecha */
 img.destacada {
     float: right;
